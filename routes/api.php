@@ -73,7 +73,7 @@ use App\Http\Controllers\Api\Modules\Admin\AdminLogController;
 // Route::post('login', [UserController::class, 'login']);
 
 // ----------------------------------- register -----------------------------------------
-
+// - chk
 Route::post('/register', [UserController::class,'store']);
 Route::post('send-mobile-otp',[UserController::class,'sendOtpToMobile'])->name('send_mobile_otp');
 Route::post('verify-mobile-otp',[UserController::class,'verifyMobileOtp'])->name('verify_mobile_otp');
